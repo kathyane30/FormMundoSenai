@@ -6,8 +6,9 @@ const FormPessoal = () => {
 
     return (
         <C.VStack spacing={5} align="stretch">
-            <h1>Pessoal</h1>
-
+           <C.Text fontSize="2xl" fontWeight="bold" mb={4}>
+                Formulário Pessoal
+            </C.Text>
             <C.Input type="text" placeholder="Nome"/>
             <C.Input type="text" placeholder="CPF"/>
             <C.Input type="email" placeholder="E-mail"/>
